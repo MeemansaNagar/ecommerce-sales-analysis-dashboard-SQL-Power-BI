@@ -19,7 +19,7 @@ This project analyzes ecommerce sales data using SQL and Power BI to derive busi
 Performed SQL queries to extract insights including sales trends, category performance, and regional analysis.
 
 ## 📊 Dashboard Preview
-
+![Dashboard](dashboard.png)
 
 
 ## 🔗 Features
