@@ -15,7 +15,8 @@ select category, sum(sales) as `Total Sales` from sales group by category order 
 -- category wise profit 
 select category , sum(profit) as `Total Profit` from sales group by category order by `Total Profit` desc;
 
--- Category-wise analysis reveals that certain categories generate higher sales while others contribute more to profit, highlighting differences in revenue and profitability across product segments.
+/*Category-wise analysis reveals that certain categories generate higher sales while others contribute more to profit,
+ highlighting differences in revenue and profitability across product segments.*/
 
 -- region wise sales
 select region , sum(sales) as tp from sales group by region order by tp desc; 
