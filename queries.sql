@@ -1,16 +1,6 @@
 create database ecommerce;
 use ecommerce;
 
-rename table ecommerce_sales_data to sales;
-alter table sales modify `Order Date` DATE;
-alter table sales modify `Product Name` VARCHAR(100);
-alter table sales modify  CATEGORY VARCHAR(50);
-alter table sales modify region VARCHAR(50);
-alter table sales modify sales float;
-alter table sales modify profit float;
-select*from sales;
-describe sales;
-SELECT * FROM sales LIMIT 10;
 -- total sales
 select sum(sales) as `Total Sales`from sales;
 -- The overall sales performance shows steady business activity, indicating consistent demand across the dataset.
